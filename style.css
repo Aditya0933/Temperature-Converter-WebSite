@@ -27,8 +27,7 @@ body{
 .landing-section-video{
     position: absolute;
     z-index: -2;
-    width: auto;
-    height: 100%;
+    width: 100%;
     bottom: 0;
 }
 
@@ -108,8 +107,12 @@ footer p{
     margin-top: 10px;
     padding: 10px 5px;
     font-size: 20px;
-    color: bisque;
+    color: rgb(37, 36, 36);
     letter-spacing: 1px;
+}
+footer p span{
+    color: red;
+    font-size: 32px;
 }
 
 @media(max-width:1185px){
