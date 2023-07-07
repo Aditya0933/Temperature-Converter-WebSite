@@ -1,6 +1,7 @@
-let celsiusInput = document.querySelector('#celsius > input')
-let fahrenheitInput = document.querySelector('#fahrenheit > input')
-let kelvinInput = document.querySelector('#kelvin > input')
+console.log('rerr')
+let celsiusInput = document.querySelector('.celsius > .icon > input')
+let fahrenheitInput = document.querySelector('.fahrenheit > .icon > input')
+let kelvinInput = document.querySelector('.kelvin > .icon > input')
 
 let btn = document.querySelector('.button button')
 
@@ -47,6 +48,50 @@ btn.addEventListener('click', ()=>{
     fahrenheitInput.value = ""
     kelvinInput.value = ""
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // console.log("Hello")
 // let CelciusInput = document.querySelector('#container-1 > input')
 // let FahrenheitInput = document.querySelector('#container-2 > input')

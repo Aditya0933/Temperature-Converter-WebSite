@@ -9,15 +9,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #000;
 }
 
 .container{
     max-width: 450px;
-    background: #003333;
+    background: #000000;
     border-radius: 8px;
-    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
     font-family: sans-serif;
     padding: 20px;
+    box-shadow: 0 0 15px aqua;
+    border: 2px solid aquamarine;
 }
 
 .title{
@@ -39,7 +41,7 @@ h1{
     font-size: 30px;
 }
 
-#celsius, #fahrenheit, #kelvin{
+.celsius, .fahrenheit, .kelvin{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,9 +63,16 @@ input{
 
 /* for chrome, safari, Edge, Opera */
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button{
+::-webkit-inner-spin-button
+ {
     -webkit-appearance: none;
 }
+
+/* for Mozila firefox */
+input{
+    -moz-appearance: textfield;
+}
+
 
 .icon{
     flex: 1;
@@ -72,8 +81,8 @@ input::-webkit-inner-spin-button{
     padding: 0 5px;
     text-align: center;
     font-size: 30px;
-    background: #4d5964;
-    color: #fff;
+    background: aqua;
+    color: #000000;
     border-radius: 0 8px 8px 0;
 }
 
@@ -97,9 +106,9 @@ input::-webkit-inner-spin-button{
 
 .button button:hover{
     background: #000;
-    color: #fff;
+    color: aquamarine;
+    border: 2px solid aqua;
 }
-
 /* *{
     margin: 0;
     padding: 0;
