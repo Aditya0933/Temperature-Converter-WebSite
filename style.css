@@ -65,12 +65,6 @@ input::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
 
-/* for Mozila firefox */
-input{
-    -moz-appearance: textfield;
-}
-
-
 .icon{
     flex: 1;
     height: 60px;
